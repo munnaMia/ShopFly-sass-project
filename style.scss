@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -55,97 +54,91 @@ body {
     }
 
     .hero-section {
-        width: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        margin-top: 14px;
+        color: #fff;
+        font-size: 40px;
+      }
+
+      .search-bar {
+        margin-top: 14px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        color: #fff;
         font-family: sans-serif;
-        align-items: center;
+        width: 70%;
         justify-content: center;
-        h1{
-            margin-top: 14px;
-            color: #fff;
-            font-size: 40px;
+        align-items: center;
+        gap: 20px;
 
+        .menu-bar {
+          font-size: 25px;
         }
 
-        .search-bar{
-            margin-top: 14px;
-            display: flex;
-            flex-direction: row;
-            color: #fff;
-            font-family: sans-serif;
-            width: 70%;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-
-            .menu-bar{
-                font-size: 25px;
-            }
-
-            .search{
-                background-color: #fff;
-                border-radius: 6px;
-                border: 0;
-                input{
-                    height: 30px;
-                    border: 0;
-                    outline: 0;
-                    width: 450px;
-                    border-radius: 5px;
-                    color: #242424;
-                    font-size: 18px;
-                    padding-left: 7px;
-                }
-                i{
-                    background: none;
-                    color: #353535;
-                    border: 0;
-                    font-size: 20px;
-                    margin-top: 5px;
-                    margin-right: 4px;
-                    margin-bottom: 4px;
-                }
-            }
-            .cart-icon{
-                font-size: 25px;
-
-            }
-        }
-
-        h2{
-            color: #fff;
-            font-size: 65px;
-            margin-top: 70px;
-            font-weight: 1000;
-            text-align: center;
-        }
-
-        button{
-            background-color: #252525;
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 5px;
-            margin-top: 50px;
+        .search {
+          background-color: #fff;
+          border-radius: 6px;
+          border: 0;
+          input {
+            height: 30px;
             border: 0;
-            height: 41px;
-            width: 134px;
-            transition: all 0.2s ease-in-out;
-
-            &:hover{
-                background-color: rgb(255, 174, 0);
-            }
+            outline: 0;
+            width: 450px;
+            border-radius: 5px;
+            color: #242424;
+            font-size: 18px;
+            padding-left: 7px;
+          }
+          i {
+            background: none;
+            color: #353535;
+            border: 0;
+            font-size: 20px;
+            margin-top: 5px;
+            margin-right: 4px;
+            margin-bottom: 4px;
+          }
         }
+        .cart-icon {
+          font-size: 25px;
+        }
+      }
 
-        
+      h2 {
+        color: #fff;
+        font-size: 65px;
+        margin-top: 70px;
+        font-weight: 1000;
+        text-align: center;
+      }
+
+      button {
+        background-color: #252525;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 50px;
+        border: 0;
+        height: 41px;
+        width: 134px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: rgb(255, 174, 0);
+        }
+      }
     }
-
-    
   }
 
-  .fashion{
-    h2{
+  .fashion {
+    h2 {
       margin-top: 20px;
       text-align: center;
       width: 100%;
@@ -155,17 +148,22 @@ body {
       font-size: 40px;
     }
 
-    .cards-section{
+    .cards-section {
       display: flex;
       flex-direction: row;
       gap: 30px;
       width: 100%;
       justify-content: center;
       margin-top: 35px;
+      font-family: sans-serif;
 
-      .card{
-        background-color: red;
-        h3{
+      .card {
+        background-color: rgb(255, 255, 255);
+        width: 330px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: -1px 2px 31px -16px black;
+        h3 {
           color: #242424;
           font-weight: bold;
           font-size: 23px;
@@ -173,12 +171,40 @@ body {
           font-family: sans-serif;
           margin-top: 10px;
         }
-        
+
+        .price {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin-top: 10px;
+          gap: 5px;
+          p {
+            color: #ff3b3b;
+            font-size: 17px;
+          }
+        }
+
+        img {
+          margin-top: 20px;
+        }
+
+        .buying {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          margin-top: 16px;
+          justify-content: space-between;
+          p {
+            margin: 15px;
+            font-weight: 600;
+            color: #ff3b3b;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+              color: #252525;
+            }
+          }
+        }
       }
     }
   }
 }
-
-
-
-

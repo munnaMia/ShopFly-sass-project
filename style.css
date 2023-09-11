@@ -144,9 +144,14 @@ body .fashion .cards-section {
   width: 100%;
   justify-content: center;
   margin-top: 35px;
+  font-family: sans-serif;
 }
 body .fashion .cards-section .card {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
+  width: 330px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -1px 2px 31px -16px black;
 }
 body .fashion .cards-section .card h3 {
   color: #242424;
@@ -155,4 +160,34 @@ body .fashion .cards-section .card h3 {
   text-align: center;
   font-family: sans-serif;
   margin-top: 10px;
+}
+body .fashion .cards-section .card .price {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+body .fashion .cards-section .card .price p {
+  color: #ff3b3b;
+  font-size: 17px;
+}
+body .fashion .cards-section .card img {
+  margin-top: 20px;
+}
+body .fashion .cards-section .card .buying {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+body .fashion .cards-section .card .buying p {
+  margin: 15px;
+  font-weight: 600;
+  color: #ff3b3b;
+  transition: all 0.2s ease-in-out;
+}
+body .fashion .cards-section .card .buying p:hover {
+  color: #252525;
 }/*# sourceMappingURL=style.css.map */
