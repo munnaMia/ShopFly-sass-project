@@ -164,7 +164,7 @@ body {
         width: 330px;
         border-radius: 10px;
         text-align: center;
-        box-shadow:  -3px 2px 24px -18px black;;
+        box-shadow: -3px 2px 24px -18px black;
         h3 {
           color: #242424;
           font-weight: bold;
@@ -204,7 +204,7 @@ body {
             font-weight: 600;
             color: #ff3b3b;
             transition: all 0.2s ease-in-out;
-            &:hover{
+            &:hover {
               color: #252525;
             }
           }
@@ -213,14 +213,13 @@ body {
     }
   }
 
-  footer{
-  
+  footer {
     background-color: #30302e;
     width: 100%;
     padding-top: 30px;
     margin-top: 50px;
 
-    h2{
+    h2 {
       color: #fff;
       font-size: 40px;
       font-family: sans-serif;
@@ -229,13 +228,13 @@ body {
       margin-bottom: 30px;
     }
 
-    .conntact_us{
+    .conntact_us {
       margin: 0 auto;
       display: flex;
       width: 50%;
       justify-content: space-between;
       margin-bottom: 10px;
-      input{
+      input {
         color: white;
         border: 0;
         outline: 0;
@@ -244,7 +243,7 @@ body {
         padding-left: 5px;
         background-color: transparent;
       }
-      span{
+      span {
         font-size: 25px;
         font-family: sans-serif;
         color: #ff623b;
@@ -254,14 +253,14 @@ body {
         border-radius: 4px;
         border: 0;
         transition: all 0.2s ease-in-out;
-        &:hover{
+        &:hover {
           color: #ffffff;
         }
       }
     }
 
-    hr{
-      width:  60%;
+    hr {
+      width: 60%;
       margin: 0 auto;
     }
 
@@ -291,20 +290,20 @@ body {
       }
     }
 
-    .hotline_number{
+    .hotline_number {
       display: flex;
       justify-content: center;
       font-family: sans-serif;
       width: 100%;
 
-      h3{
+      h3 {
         color: #fff;
         margin-top: 40px;
         font-size: 20px;
         font-weight: 500;
         text-transform: uppercase;
       }
-      p{
+      p {
         color: #fff;
         margin-top: 40px;
         font-size: 20px;
@@ -313,28 +312,24 @@ body {
         margin-left: 6px;
         letter-spacing: 1px;
         transition: all 0.1s ease-in-out;
-        &:hover{
+        &:hover {
           color: #ff623b;
         }
       }
-
-
     }
 
-    h4{
+    h4 {
       color: #ff6060;
-        margin-top: 30px;
-        margin-left: 20px;
-        text-align: center;
-        font-family: sans-serif;
-        width: 100%;
-        font-size: 15px;
-        font-weight: 500;
-        text-transform: uppercase;
-        margin-left: 6px;
-        letter-spacing: 1px;
+      margin-top: 30px;
+      margin-left: 20px;
+      text-align: center;
+      font-family: sans-serif;
+      width: 100%;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-left: 6px;
+      letter-spacing: 1px;
     }
-
-
   }
 }
