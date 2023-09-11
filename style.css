@@ -1,1 +1,158 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+body .container {
+  background-image: url(./Images/banner-bg.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+body .container header {
+  width: 100%;
+}
+body .container header nav {
+  background-color: #242424;
+  width: 90%;
+  margin: 0 auto;
+  height: 60px;
+  text-align: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+          clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+}
+body .container header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  gap: 20px;
+}
+body .container header nav ul li {
+  cursor: pointer;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+body .container header nav ul li:hover {
+  color: rgb(255, 136, 0);
+}
+body .container .hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+body .container .hero-section h1 {
+  margin-top: 14px;
+  color: #fff;
+  font-size: 40px;
+}
+body .container .hero-section .search-bar {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-family: sans-serif;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body .container .hero-section .search-bar .menu-bar {
+  font-size: 25px;
+}
+body .container .hero-section .search-bar .search {
+  background-color: #fff;
+  border-radius: 6px;
+  border: 0;
+}
+body .container .hero-section .search-bar .search input {
+  height: 30px;
+  border: 0;
+  outline: 0;
+  width: 450px;
+  border-radius: 5px;
+  color: #242424;
+  font-size: 18px;
+  padding-left: 7px;
+}
+body .container .hero-section .search-bar .search i {
+  background: none;
+  color: #353535;
+  border: 0;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+body .container .hero-section .search-bar .cart-icon {
+  font-size: 25px;
+}
+body .container .hero-section h2 {
+  color: #fff;
+  font-size: 65px;
+  margin-top: 70px;
+  font-weight: 1000;
+  text-align: center;
+}
+body .container .hero-section button {
+  background-color: #252525;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+  border: 0;
+  height: 41px;
+  width: 134px;
+  transition: all 0.2s ease-in-out;
+}
+body .container .hero-section button:hover {
+  background-color: rgb(255, 174, 0);
+}
+body .fashion h2 {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  font-family: sans-serif;
+  color: #30302e;
+  font-weight: bold;
+  font-size: 40px;
+}
+body .fashion .cards-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 35px;
+}
+body .fashion .cards-section .card {
+  background-color: red;
+}
+body .fashion .cards-section .card h3 {
+  color: #242424;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
