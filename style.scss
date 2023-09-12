@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   background-color: #ffffff;
   .container {
@@ -332,4 +332,219 @@ body {
       letter-spacing: 1px;
     }
   }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    .container {
+      header {
+        nav {
+          ul {
+            gap: 24px;
+            li {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+      .hero-section {
+      
+        h1 {
+          margin-top: 14px;
+          font-size: 40px;
+        }
+  
+        .search-bar {
+          margin-top: 12px;
+          width: 60%;
+  
+          .menu-bar {
+          }
+  
+          .search {
+            input {
+              height: 27px;
+              width: 277px;
+            }
+            i {
+          
+              font-size: 18px;
+            
+            }
+          }
+          .cart-icon {
+            font-size: 20px;
+          }
+        }
+  
+        h2 {
+          color: #fff;
+          font-size: 55px;
+          margin-top: 60px;
+          font-weight: 900;
+        }
+  
+        button {
+          font-size: 14px;
+          margin-top: 45px;
+          height: 36px;
+          width: 125px;
+        }
+      }
+    }
+
+    .fashion {
+      margin-top: 70px;
+      width: 100%;
+      h2 {
+        margin-top: 25px;
+        font-size: 55px;
+    
+
+      }
+  
+      .cards-section {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        font-family: sans-serif;
+  
+        .card {
+          height: 418px;
+          background-color: rgb(255, 255, 255);
+          width: 430px;
+          border-radius: 10px;
+          text-align: center;
+          box-shadow: -3px 2px 24px -18px black;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  body{
+    .container{
+      header{
+        nav{
+          width: 100%;
+          ul{
+            li{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .fashion{
+      h2{
+        font-size: 35px;
+      }
+    }
+    footer {
+      background-color: #30302e;
+      width: 100%;
+      padding-top: 20px;
+      margin-top: 35px;
+  
+      h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+      }
+  
+      .conntact_us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input {
+          color: white;
+          border: 0;
+          outline: 0;
+          font-family: sans-serif;
+          font-size: 20px;
+          padding-left: 5px;
+          background-color: transparent;
+
+        }
+        span {
+          font-size: 20px;
+          font-family: sans-serif;
+          color: #ff623b;
+          
+        }
+      }
+  
+      hr {
+        max-width: 50%;
+        margin: 0 auto;
+      }
+  
+      ul {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        gap: 30px;
+  
+        li {
+          cursor: pointer;
+          list-style-type: none;
+          color: #ffffff;
+          font-family: sans-serif;
+          font-weight: 200;
+          letter-spacing: 1px;
+          font-size: 16px;
+          transition: all 0.2s ease-in-out;
+  
+          &:hover {
+            color: rgb(255, 136, 0);
+          }
+        }
+      }
+  
+      .hotline_number {
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        width: 100%;
+  
+        h3 {
+          color: #fff;
+          margin-top: 40px;
+          font-size: 20px;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+        p {
+          color: #fff;
+          margin-top: 40px;
+          font-size: 20px;
+          font-weight: 500;
+          text-transform: uppercase;
+          margin-left: 6px;
+          letter-spacing: 1px;
+          transition: all 0.1s ease-in-out;
+          &:hover {
+            color: #ff623b;
+          }
+        }
+      }
+  
+      h4 {
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 100%;
+        font-size: 10px;
+        font-weight: 200;
+      }
+    }
+  }
+
+  
 }
